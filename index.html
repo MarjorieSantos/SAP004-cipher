@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UT-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="container">
+    <div class="header">
+      <header>
+        <h1>Secret Word</h1>
+        <h2>Cuidado para não te descobrirem!</h2>
+      </header>
+    </div>
+
+    <div class="form-initial">
+      <form>
+        <div class="input-group">
+          <label for="msg">Insira abaixo a frase:</label>
+          <textarea id="msg"></textarea>
+        </div>
+
+        <div class="input-group">
+          <label for="offset">Digite a chave secreta: </label>
+          <input type="text" id="offset" placeholder="nº">
+        </div>
+
+        <div class="input-group">
+          <label for="choice">Selecione uma das opções:</label>
+          <div id="btn-option">
+          <input type="button"  id="choice" class="btn" value="criptografar">
+          <input type="button" id="choice2" class="btn" value="descriptografar">
+          </div>
+        </div>
+      </form>
+
+      <section id="result" style="display: none;">
+        <h3>Resultado: </h3>
+        <p id="result-name"></p>
+      </section>
+
+    </div>
+  </section>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
