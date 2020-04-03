@@ -20,7 +20,7 @@ body{
     border-radius: 50px;
     text-align: center;
     margin: auto;
-    background: rgba(0, 0, 0, .6);
+    background: rgba(0, 0, 0, .7);
     padding-bottom: 30px;
 }
 
@@ -34,7 +34,7 @@ h2{
     font-family: 'Comfortaa', cursive;
     color: white;
     font-size: 30px;
-    padding: 0 15px;
+    padding: 15px;
 }
 
 h3{
@@ -49,9 +49,14 @@ h3{
 p{
     font-family: 'Comfortaa', cursive;
     color: #a2cee9;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 0;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+#obs {
+    font-size: 17px;
+
 }
 
 label, ::placeholder{
@@ -88,6 +93,16 @@ input, select, textarea{
     margin: 10px 0 5px;
 }
 
+#btn-start{
+    flex: 1;
+    font-size: 20px;
+    background: #103146;
+    color: #f9f7fc;
+    font-weight: bold;
+    border-color: #295875;
+    width: auto;
+}
+
 #btn-send {
     margin: 10px 0px;
 }
@@ -107,7 +122,7 @@ input, select, textarea{
     margin-right: 5px;
 }
 
-#btn-option .btn:hover{
+#btn-option .btn:hover, #btn-start:hover{
     background: none;
     color: #f9f7fc;
     border-color: #295875;
@@ -115,10 +130,6 @@ input, select, textarea{
 
 #btn-option .btn:last-child{
     margin-right: 0;
-}
-
-form {
-    max-width: 350px;
 }
 
 #result{

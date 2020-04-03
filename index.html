@@ -9,10 +9,21 @@
 </head>
 
 <body>
-  <section class="container">
+  <section class="container" id="page1">
+    <div>
+      <h1>Secret Word</h1>
+      <p>Aqui você poderá cifrar ou decifrar um texto com uma chave de deslocamento secreta.
+        Lembrando que só quem souber essa chave poderá ter o resultado correta!</p>
+      <p id="obs">obs: não utilize caracteres especiais (ex: ´, ^, @, !...)</p>
+
+      <label for="start"></label>
+      <input type="button" id="btn-start" value="começar">
+    </div>
+  </section>
+
+  <section class="container" id="page2" style="display: none;">
     <div class="header">
       <header>
-        <h1>Secret Word</h1>
         <h2>Cuidado para não te descobrirem!</h2>
       </header>
     </div>
@@ -32,8 +43,8 @@
         <div class="input-group">
           <label for="choice">Selecione uma das opções:</label>
           <div id="btn-option">
-          <input type="button"  id="choice" class="btn" value="criptografar">
-          <input type="button" id="choice2" class="btn" value="descriptografar">
+            <input type="button" id="choice" class="btn" value="criptografar">
+            <input type="button" id="choice2" class="btn" value="descriptografar">
           </div>
         </div>
       </form>
