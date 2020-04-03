@@ -49,9 +49,9 @@ h3{
 p{
     font-family: 'Comfortaa', cursive;
     color: #a2cee9;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 0;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 label, ::placeholder{
@@ -88,6 +88,16 @@ input, select, textarea{
     margin: 10px 0 5px;
 }
 
+#btn-start{
+    flex: 1;
+    font-size: 20px;
+    background: #103146;
+    color: #f9f7fc;
+    font-weight: bold;
+    border-color: #295875;
+    width: auto;
+}
+
 #btn-send {
     margin: 10px 0px;
 }
@@ -107,7 +117,7 @@ input, select, textarea{
     margin-right: 5px;
 }
 
-#btn-option .btn:hover{
+#btn-option .btn:hover, #btn-start:hover{
     background: none;
     color: #f9f7fc;
     border-color: #295875;
@@ -115,10 +125,6 @@ input, select, textarea{
 
 #btn-option .btn:last-child{
     margin-right: 0;
-}
-
-form {
-    max-width: 350px;
 }
 
 #result{

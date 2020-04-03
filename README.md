@@ -10,6 +10,8 @@ O produto permite que o usuário intercepte uma palavra que só ele e quem possu
 
 ## 2.1 Getting Started
 
+A primeira página faz uma apresentação ao usuário sobre o produto e como ele pode ser usado.
+
 Para utilizar o produto, o usuário precisa preencher a primeira lacuna com o texto que pretende decifrar ou cifrar, a segunda lacula com o a chave de deslocamento (nº) e por último deve-se clicar em uma das opções ao final do container, assim o mesmo devolverá o resultado esperado. Caso contrário, se nenhum campo for preenchido, o programa não permite que o usuário continue a ação.
 
 
