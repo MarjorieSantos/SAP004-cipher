@@ -16,14 +16,13 @@ Para utilizar o produto, o usuário precisa preencher a primeira lacuna com o te
 ## 3. Processo
 Foi feito um fluxograma para ajudar no entendimento do código
 
-
 ![Fluxograma do Projeto](src/assets/fluxograma.png)
 
 ## 3.1 Desenvolvimento 
-    Para que o programa funcionasse foram criadas duas funções principais:
-    * encode() esta função terá dois parâmetros: asasdas
-        - string: o texto que o usuário deseja cifrar
-        - offset: a chave de deslocamento, que seria o nº de posições movidas para a direita no alfabeto
+Para que o programa funcionasse foram criadas duas funções principais:
+* encode() esta função terá dois parâmetros: asasdas
+    - string: o texto que o usuário deseja cifrar
+    - offset: a chave de deslocamento, que seria o nº de posições movidas para a direita no alfabeto
     * decode() esta função terá dois parâmetros: 
-        - string: o texto que o usuário deseja decifrar
-        - offset: a chave de deslocamento, que seria o nº de posições movidas para a esquerda no alfabeto
+    - string: o texto que o usuário deseja decifrar
+    - offset: a chave de deslocamento, que seria o nº de posições movidas para a esquerda no alfabeto
