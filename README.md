@@ -23,6 +23,6 @@ Para que o programa funcionasse foram criadas duas funções principais:
 * encode() esta função terá dois parâmetros: asasdas
     - string: o texto que o usuário deseja cifrar
     - offset: a chave de deslocamento, que seria o nº de posições movidas para a direita no alfabeto
-    * decode() esta função terá dois parâmetros: 
+* decode() esta função terá dois parâmetros: 
     - string: o texto que o usuário deseja decifrar
     - offset: a chave de deslocamento, que seria o nº de posições movidas para a esquerda no alfabeto
