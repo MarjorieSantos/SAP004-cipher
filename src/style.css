@@ -54,6 +54,11 @@ p{
     letter-spacing: 1px;
 }
 
+#obs {
+    font-size: 17px;
+
+}
+
 label, ::placeholder{
     font-family: 'Comfortaa', cursive;
     color: white;
