@@ -2,11 +2,8 @@
 
 ## 1. Prefácio
 
-    Cifrar significa codificar.
-    A cifra de César é uma das técnicas mais simples de cifrar uma mensagem. É um
-    tipo de cifra por substituição, em que cada letra do texto original é
-    substituida por outra que se encontra há um número fixo de posições
-    (chave de deslocamento) mpara a frente do mesmo alfabeto.
+Cifrar significa codificar.
+A cifra de César é uma das técnicas mais simples de cifrar uma mensagem. É um tipo de cifra por substituição, em que cada letra do texto original é substituida por outra que se encontra há um número fixo de posições (chave de deslocamento) mpara a frente do mesmo alfabeto.
 
 ## 2. Interface
 
