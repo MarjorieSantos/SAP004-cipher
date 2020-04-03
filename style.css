@@ -134,6 +134,7 @@ input, select, textarea{
 
 #result{
     width: 100%;
+    overflow-wrap: break-word;
 }
 
 
