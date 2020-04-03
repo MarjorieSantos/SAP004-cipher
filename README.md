@@ -18,4 +18,4 @@ substituida por outra que se encontra há um número fixo de posições
 O produto permite que o usuário intercepte uma palavara que só ele e quem possuir a chave de deslocamento saberá qual é, tornandoa-a sigilosa. A interface fornece uma visualização clara e objetiva de como preencher cada campo requerido caso queira codificar ou decodificar uma palavra.
 
 ## 2.1 Processo
-![Fluxograma do Projeto](img_readme/fluxograma.png)
+![Fluxograma do Projeto](assets/fluxograma.png)
