@@ -20,7 +20,7 @@ Foi feito um fluxograma para ajudar no entendimento do código
 
 ## 3.1 Desenvolvimento 
 Para que o programa funcionasse foram criadas duas funções principais:
-* encode() esta função terá dois parâmetros: asasdas
+* encode() esta função terá dois parâmetros: 
     - string: o texto que o usuário deseja cifrar
     - offset: a chave de deslocamento, que seria o nº de posições movidas para a direita no alfabeto
 * decode() esta função terá dois parâmetros: 
