@@ -21,10 +21,28 @@ Foi feito um fluxograma para ajudar no entendimento do código
 ![Fluxograma do Projeto](src/assets/fluxograma.png)
 
 ## 3.1 Desenvolvimento 
+
+Para esse projeto foram usados:
+* CSS
+* HTML
+* Vanilla JavaScript
+
 Para que o programa funcionasse foram criadas duas funções principais:
 * encode() esta função terá dois parâmetros: 
     - string: o texto que o usuário deseja cifrar
     - offset: a chave de deslocamento, que seria o nº de posições movidas para a direita no alfabeto
+    
 * decode() esta função terá dois parâmetros: 
     - string: o texto que o usuário deseja decifrar
     - offset: a chave de deslocamento, que seria o nº de posições movidas para a esquerda no alfabeto
+
+
+
+## 3.2 Scripts
+Os comandos necessário para executá-los são:
+
+* npm start -  executa os scripts que estiverem localizados no arquivo package.json, no caso o **"start"**, devolvendo assim o arquivo do servidor.
+
+* npm test - procura pelo script  **test** dentro do package.json, executar o que estiver dentro dele e mostrar se os testes passaram ou não.
+
+* npm deploy - publica uma versão do seu projeto no GitHub Pages.
