@@ -52,6 +52,7 @@ p{
     font-size: 25px;
     margin-top: 0;
     letter-spacing: 1px;
+    overflow-wrap: break-word;
 }
 
 #obs {
@@ -134,7 +135,7 @@ input, select, textarea{
 
 #result{
     width: 100%;
-    overflow-wrap: break-word;
+    
 }
 
 
