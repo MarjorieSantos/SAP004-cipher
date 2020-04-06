@@ -45,7 +45,7 @@ Para que o programa funcionasse foram criadas duas funções principais:
 ## 3.2 Scripts
 Os comandos necessário para executá-los são:
 
-* npm install - 
+* npm install - este irá auxiliar na instalação do projeto, no gerenciamento da versões e no gerenciamento de dependências necessárias para executa-lo.
 
 * npm start -  executa os scripts que estiverem localizados no arquivo package.json, no caso o **"start"**, devolvendo assim o arquivo do servidor.
 
