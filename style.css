@@ -96,6 +96,7 @@ label, ::placeholder{
     width: auto;
     background: rgb(206, 203, 203);
     color: #103146;
+    border: none;
 }
 
 #btn-back:hover {
