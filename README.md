@@ -31,7 +31,8 @@ Para esse projeto foram usados:
 * Vanilla JavaScript
 
 Para que o programa funcionasse foram criadas duas funções principais:
-@octocat :pushpin: encode() esta função terá dois parâmetros: 
+
+:pushpin: encode() esta função terá dois parâmetros: 
     - string: o texto que o usuário deseja cifrar
     - offset: a chave de deslocamento, que seria o nº de posições movidas para a direita no alfabeto
     
