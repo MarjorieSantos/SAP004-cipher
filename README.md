@@ -17,7 +17,7 @@ Para utilizar o produto, o usuário precisa preencher a primeira lacuna com o te
 
 
 ## 3. Processo
-:memo::pencil:  Foi feito um fluxograma para ajudar no entendimento do código e criado uma paleta de cores para ter um trabalho visual melhor
+:memo: Foi feito um fluxograma para ajudar no entendimento do código e criado uma paleta de cores para ter um trabalho visual melhor
 
 ![Fluxograma do Projeto](src/assets/fluxograma.png)
 
