@@ -23,7 +23,6 @@ btn_back.onclick = function(){
     btn_back.style.display = "none"
     message.value = ""
     offset.value = ""
-    result_name = ""
     result.style.display = "none"
 }
 
