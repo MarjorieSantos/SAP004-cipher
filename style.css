@@ -92,7 +92,15 @@ label, ::placeholder{
 #btn-back{
     position: absolute;
     top: 0;
-    
+    left: 30px;
+    width: auto;
+    background: rgb(206, 203, 203);
+    color: #103146;
+}
+
+#btn-back:hover {
+    background: #103146;
+    color: white;
 }
 
 #btn-start{
