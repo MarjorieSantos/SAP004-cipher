@@ -1,5 +1,7 @@
 import cipher from './cipher.js';
 
+let page1 = document.getElementById("page1")
+let page2 = document.getElementById("page2")
 let btn_inicio = document.getElementById("btn-start")
 let message = document.getElementById("msg")
 let offset = document.getElementById("offset")
