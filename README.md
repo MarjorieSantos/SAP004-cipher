@@ -7,7 +7,7 @@ A cifra de César é uma das técnicas mais simples de cifrar uma mensagem. É u
 ## 2. Interface
 
 O produto permite que o usuário intercepte uma palavra que só ele e quem possuir a chave de deslocamento saberá qual é, tornandoa-a sigilosa. A interface fornece uma visualização clara e objetiva de como preencher cada campo requerido caso queira codificar ou decodificar uma palavra.
-Para visualiza-la [clique aqui](https://marjoriesantos.github.io/SAP004-cipher/)
+Para visualiza-la [clique aqui target = "blank"](https://marjoriesantos.github.io/SAP004-cipher/) 
 
 ## 2.1 Getting Started
 
