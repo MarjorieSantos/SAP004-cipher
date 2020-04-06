@@ -1,3 +1,5 @@
+/*   geral  */
+
 *{
     box-sizing: border-box;
 }
@@ -24,6 +26,8 @@ body{
     padding-bottom: 30px;
 }
 
+/*   titulos  */
+
 h1 {
     font-family: 'Comfortaa', cursive;
     color: white;
@@ -46,6 +50,8 @@ h3{
     letter-spacing: 2px;
 }
 
+/*  textos  */
+
 p{
     font-family: 'Comfortaa', cursive;
     color: #a2cee9;
@@ -57,7 +63,6 @@ p{
 
 #obs {
     font-size: 17px;
-
 }
 
 label, ::placeholder{
@@ -67,18 +72,41 @@ label, ::placeholder{
     padding-bottom: 5px;
 }
 
-form {
-    max-width: 350px;
+
+/* BOTÕES */
+
+.btn {
+    background: #103146;
+    color: #f9f7fc;
+    font-weight: bold;
+    border-color: #295875;
+    font-size: 20px;
 }
 
-.form-initial {
+.btn:hover{
+    background: none;
+    color: #f9f7fc;
+    border-color: #295875;
+}
+
+#btn-back{
+    position: absolute;
+    top: 0;
+    
+}
+
+#btn-start{
+    width: auto;
+}
+
+#btn-option {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
-.input-group {
-    margin: 10px 0;
+#btn-option .btn {
+    flex: 1;
+    font-size: 16px;
+    margin-left: 5px;
 }
 
 input, select, textarea{
@@ -94,48 +122,23 @@ input, select, textarea{
     margin: 10px 0 5px;
 }
 
-#btn-start{
-    flex: 1;
-    font-size: 20px;
-    background: #103146;
-    color: #f9f7fc;
-    font-weight: bold;
-    border-color: #295875;
-    width: auto;
+/* divs */
+form {
+    max-width: 350px;
 }
 
-#btn-send {
-    margin: 10px 0px;
-}
-
-#btn-option {
+.form-initial {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-#btn-option .btn {
-    flex: 1;
-    font-size: 16px;
-    background: #103146;
-    color: #f9f7fc;
-    font-weight: bold;
-    border-color: #295875;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-#btn-option .btn:hover, #btn-start:hover{
-    background: none;
-    color: #f9f7fc;
-    border-color: #295875;
-}
-
-#btn-option .btn:last-child{
-    margin-right: 0;
+.input-group {
+    margin: 10px 0;
 }
 
 #result{
     width: 100%;
-    
 }
 
 
