@@ -7,7 +7,7 @@ A cifra de César é uma das técnicas mais simples de cifrar uma mensagem. É u
 ## 2. Interface
 
 O produto permite que o usuário intercepte uma palavra que só ele e quem possuir a chave de deslocamento saberá qual é, tornandoa-a sigilosa. A interface fornece uma visualização clara e objetiva de como preencher cada campo requerido caso queira codificar ou decodificar uma palavra.
-Para visualiza-la [clique aqui](https://marjoriesantos.github.io/SAP004-cipher/)
+Para visualiza-la [clique aqui](https://marjoriesantos.github.io/SAP004-cipher/) :arrow_left:
 
 ## 2.1 Getting Started
 
@@ -30,13 +30,13 @@ Para esse projeto foram usados:
 * HTML
 * Vanilla JavaScript
 
-Para que o programa funcionasse foram criadas duas funções principais:
+:pushpin: Para que o programa funcionasse foram criadas duas funções principais:
 
-:pushpin: encode() esta função terá dois parâmetros: 
+* encode() esta função terá dois parâmetros: 
     - string: o texto que o usuário deseja cifrar
     - offset: a chave de deslocamento, que seria o nº de posições movidas para a direita no alfabeto
     
-:pushpin: decode() esta função terá dois parâmetros: 
+* decode() esta função terá dois parâmetros: 
     - string: o texto que o usuário deseja decifrar
     - offset: a chave de deslocamento, que seria o nº de posições movidas para a esquerda no alfabeto
 
