@@ -18,7 +18,6 @@ btn_inicio.onclick = function(){
 }
 
 btn_back.onclick = function(){
-    debugger
     page1.style.display = "block"
     page2.style.display = "none"
     btn_back.style.display = "none"
