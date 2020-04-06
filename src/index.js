@@ -1,5 +1,6 @@
 import cipher from './cipher.js';
 
+let btn_back = document.getElementById("btn-back")
 let page1 = document.getElementById("page1")
 let page2 = document.getElementById("page2")
 let btn_inicio = document.getElementById("btn-start")
@@ -13,6 +14,18 @@ let result_name = document.getElementById("result-name")
 btn_inicio.onclick = function(){
     page1.style.display = "none"
     page2.style.display = "block"
+    btn_back.style.display = "block"
+}
+
+btn_back.onclick = function(){
+    debugger
+    page1.style.display = "block"
+    page2.style.display = "none"
+    btn_back.style.display = "none"
+    message.value = ""
+    offset.value = ""
+    result_name = ""
+    result.style.display = "none"
 }
 
 choice.onclick = function(){
