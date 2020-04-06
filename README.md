@@ -31,7 +31,7 @@ Para esse projeto foram usados:
 * Vanilla JavaScript
 
 Para que o programa funcionasse foram criadas duas funções principais:
-* encode() esta função terá dois parâmetros: 
+@octocat :pushpin: encode() esta função terá dois parâmetros: 
     - string: o texto que o usuário deseja cifrar
     - offset: a chave de deslocamento, que seria o nº de posições movidas para a direita no alfabeto
     
@@ -43,6 +43,8 @@ Para que o programa funcionasse foram criadas duas funções principais:
 
 ## 3.2 Scripts
 Os comandos necessário para executá-los são:
+
+* npm install - 
 
 * npm start -  executa os scripts que estiverem localizados no arquivo package.json, no caso o **"start"**, devolvendo assim o arquivo do servidor.
 
