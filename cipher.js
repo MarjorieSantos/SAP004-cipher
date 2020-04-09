@@ -9,7 +9,6 @@ const cipher = {
       let novoCharCode = ((charCodeLetraAtual - 65 + parseInt(offset)) % 26) + 65;
       novaLetra = String.fromCharCode(novoCharCode);
       }
-
       novaPalavra = novaPalavra + novaLetra
 
     }
