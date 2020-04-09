@@ -32,7 +32,7 @@ Para esse projeto foram usados:
 * HTML
 * Vanilla JavaScript
 
-:pushpin: Para que o programa funcionasse foram criadas duas funções principais:
+:pushpin: Para que o programa funcionasse foram criadas duas funções principais dentro do objeto cipher:
 
 * encode() esta função terá dois parâmetros: 
     - string: o texto que o usuário deseja cifrar
@@ -41,13 +41,13 @@ Para esse projeto foram usados:
 * decode() esta função terá dois parâmetros: 
     - string: o texto que o usuário deseja decifrar
     - offset: a chave de deslocamento, que seria o nº de posições movidas para a esquerda no alfabeto
-
+ 
 
 
 ## 3.2 Scripts
 :warning: Para usá-lo, você precisa instalar o node.js – visto que, eles são empacotados juntos.  :warning:
 
-Os comandos necessário para executar o projeto em sua máquina são:
+Os comandos necessários para executar o programa em sua máquina são:
 
 * npm install - este irá auxiliar na instalação do projeto, no gerenciamento da versões e no gerenciamento de dependências necessárias para executa-lo.
 
