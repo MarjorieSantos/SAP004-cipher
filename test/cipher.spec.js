@@ -27,9 +27,9 @@ describe('cipher', () => {
     });
 
     //incluir espaço
+
+
     
-
-
     // Hacker edition
    
     // [Português]
