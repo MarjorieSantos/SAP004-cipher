@@ -1,0 +1,153 @@
+/*   geral  */
+
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body{
+    background: url(assets/img/background.jpg);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    max-width: 600px;
+    border: 3px solid transparent;
+    border-radius: 50px;
+    text-align: center;
+    margin: auto;
+    background: rgba(0, 0, 0, .7);
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*   titulos  */
+
+h1 {
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-size: 40px;
+}
+
+h2{
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+}
+
+h3{
+    display: inline-block;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-size: 25px;
+    margin: 30px auto 10px;
+    letter-spacing: 2px;
+}
+
+/*  textos  */
+
+p{
+    font-family: 'Comfortaa', cursive;
+    color: #a2cee9;
+    font-size: 25px;
+    margin-top: 0;
+    letter-spacing: 1px;
+    overflow-wrap: break-word;
+}
+
+#obs {
+    font-size: 17px;
+}
+
+label, ::placeholder{
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+
+
+/* BOTÕES */
+
+.btn {
+    background: #103146;
+    color: #f9f7fc;
+    font-weight: bold;
+    border-color: #295875;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background: none;
+    color: #f9f7fc;
+    border-color: #295875;
+}
+
+#btn-back{
+    position: absolute;
+    top: 0;
+    left: 30px;
+    width: auto;
+    background: rgb(206, 203, 203);
+    color: #103146;
+    border: none;
+}
+
+#btn-back:hover {
+    background: #103146;
+    color: white;
+}
+
+#btn-start{
+    width: auto;
+}
+
+#btn-option {
+    display: flex;
+}
+
+#btn-option .btn {
+    flex: 1;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+input, select, textarea{
+    border: 2px solid #82B8D9;
+    border-radius: 20px;
+    background: none;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 10px 0 5px;
+}
+
+/* divs */
+form {
+    max-width: 350px;
+}
+
+.form-initial {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.input-group {
+    margin: 10px 0;
+}
+
+#result{
+    width: 100%;
+}
