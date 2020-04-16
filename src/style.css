@@ -9,7 +9,7 @@ html, body {
 }
 
 body{
-    background: url(assets/img/background.jpg);
+    background: url(assets/background.jpg);
     padding: 0;
     margin: 0;
     display: flex;
@@ -63,7 +63,7 @@ p{
     overflow-wrap: break-word;
 }
 
-#obs {
+.obs {
     font-size: 17px;
 }
 
@@ -73,7 +73,6 @@ label, ::placeholder{
     font-size: 24px;
     padding-bottom: 5px;
 }
-
 
 /* BOTÕES */
 
@@ -91,7 +90,7 @@ label, ::placeholder{
     border-color: #295875;
 }
 
-#btn-back{
+.btn.btn-back{
     position: absolute;
     top: 0;
     left: 30px;
@@ -101,26 +100,26 @@ label, ::placeholder{
     border: none;
 }
 
-#btn-back:hover {
+.btn.btn-back:hover {
     background: #103146;
     color: white;
 }
 
-#btn-start{
+.btn.btn-start{
     width: auto;
 }
 
-#btn-option {
+.btn-inputs {
     display: flex;
+    flex: 1;
 }
 
-#btn-option .btn {
-    flex: 1;
+.btn-inputs .btn.btn-option{
     font-size: 16px;
     margin-left: 5px;
 }
 
-input, select, textarea{
+input, textarea{
     border: 2px solid #82B8D9;
     border-radius: 20px;
     background: none;
@@ -134,7 +133,7 @@ input, select, textarea{
 }
 
 /* divs */
-form {
+.form {
     max-width: 350px;
 }
 
@@ -148,6 +147,14 @@ form {
     margin: 10px 0;
 }
 
-#result{
+.result{
     width: 100%;
+}
+
+.hidden-content{
+    display: none !important;
+}
+
+.show-content{
+    display: block !important;
 }
