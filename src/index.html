@@ -9,57 +9,48 @@
 </head>
 
 <body>
-  <div>
-    <input type="button" id="btn-back" class="btn" value="Voltar" style="display: none;">
-  </div>
-
   <section class="container" id="page1">
-    <div>
-      <h1>Secret Message</h1>
-      <p>Aqui você poderá trocar mensagens com seus amigos de forma secreta.
-        Lembrando que só com a chave de deslocamento correta poderá descobrir o resultado!</p>
-      <p id="obs">obs: não utilize caracteres especiais (ex: ´, ^, @, !...)</p>
+    <h1>Secret Message</h1>
+    <p>Aqui você poderá trocar mensagens com seus amigos de forma secreta.
+      Lembrando que só com a chave de deslocamento correta poderá descobrir o resultado!</p>
+    <p class="obs">obs: não utilize caracteres especiais (ex: ´, ^, @, !...)</p>
 
-      <label for="start"></label>
-      <input type="button" id="btn-start" class="btn" value="começar">
-    </div>
+    <input type="button" class="btn btn-start js-btn-start" value="começar">
   </section>
 
-  <section class="container" id="page2" style="display: none;">
-    <div class="header">
-      <header>
-        <h2>Cuidado para não te descobrirem!</h2>
-      </header>
-    </div>
+  <section class="container hidden-content" id="page2">
+    <header>
+      <h2>Cuidado para não te descobrirem!</h2>
+    </header>
 
     <div class="form-initial">
-      <form>
-        <div class="input-group">
-          <label for="msg">Insira abaixo a frase:</label>
-          <textarea id="msg"></textarea>
-        </div>
+      <form class="form">
+        <section class="input-group">
+          <label for="msg"> Insira abaixo a frase:</label>
+          <textarea id="msg" class="msg js-msg"></textarea>
 
-        <div class="input-group">
-          <label for="offset">Digite a chave secreta: </label>
-          <input type="number" id="offset" placeholder="nº">
-        </div>
+          <label for="offset"> Digite a chave secreta: </label>
+          <input type="number" id="offset" class="js-offset" placeholder="nº">
 
-        <div class="input-group">
-          <label for="choice">Selecione uma das opções:</label>
-          <div id="btn-option">
-            <input type="button" id="choice" class="btn" value="criptografar">
-            <input type="button" id="choice2" class="btn" value="descriptografar">
+          <label>Selecione uma das opções:</label>
+          <div class="btn-inputs">
+            <input type="button" class="btn btn-option js-encode" value="criptografar">
+            <input type="button"  class="btn btn-option js-decode" value="descriptografar">
           </div>
-        </div>
+        </section>
       </form>
 
-      <section id="result" style="display: none;">
+      <section class="result js-result" style="display: none;">
         <h3>Resultado: </h3>
         <p id="result-name"></p>
       </section>
+    </div>
 
+    <div>
+      <input type="button" class="btn btn-back js-btn-back" value="Voltar" style="display: none;">
     </div>
   </section>
+
   <script src="index.js" type="module"></script>
 </body>
 
