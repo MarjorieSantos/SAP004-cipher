@@ -1,33 +1,32 @@
 const cipher = {
   encode: function (offset, string) {
-    const novaPalavra = ""; //ela recebe uma string vazia para poder concatenar com a palavra gerada pelo novo charCode
-    const palavraMaiuscula = string.toUpperCase();
+    let novaPalavra = "";
+    let palavraMaiuscula = string.toUpperCase();
+    const firstLetter = "A".charCodeAt()
     for (let contador = 0; contador < palavraMaiuscula.length; contador++) {
-      const novaLetra = palavraMaiuscula[contador]
-      if(novaLetra !== " "){
-      const charCodeLetraAtual = novaLetra.charCodeAt();
-      const novoCharCode = ((charCodeLetraAtual - 65 + parseInt(offset)) % 26) + 65;
-      novaLetra = String.fromCharCode(novoCharCode);
+      let novaLetra = palavraMaiuscula[contador]
+      if (novaLetra !== " ") {
+        let charCodeLetraAtual = novaLetra.charCodeAt();
+        let novoCharCode = ((charCodeLetraAtual - firstLetter + parseInt(offset)) % 26) + firstLetter;
+        novaLetra = String.fromCharCode(novoCharCode);
       }
       novaPalavra = novaPalavra + novaLetra
-
     }
     return novaPalavra
   },
 
   decode: function (offset, string) {
-    const novaPalavra = ""
-    const palavraMaiuscula = string.toUpperCase();
+    let novaPalavra = ""
+    let palavraMaiuscula = string.toUpperCase();
+    const firstLetter = "A".charCodeAt()
     for (let contador = 0; contador < palavraMaiuscula.length; contador++) {
-      const novaLetra = palavraMaiuscula[contador]
-      if(novaLetra !== " "){
-      const charCodeLetraAtual = palavraMaiuscula[contador].charCodeAt();
-      const novoCharCode = ((charCodeLetraAtual + 65 - parseInt(offset)) % 26) + 65;
-      novaLetra = String.fromCharCode(novoCharCode);
+      let novaLetra = palavraMaiuscula[contador]
+      if (novaLetra !== " ") {
+        let charCodeLetraAtual = palavraMaiuscula[contador].charCodeAt();
+        let novoCharCode = ((charCodeLetraAtual + firstLetter - parseInt(offset)) % 26) + firstLetter;
+        novaLetra = String.fromCharCode(novoCharCode);
       }
-      
       novaPalavra = novaPalavra + novaLetra
-
     }
     return novaPalavra
   }
