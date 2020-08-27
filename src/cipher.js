@@ -1,35 +1,32 @@
 const cipher = {
   encode: function (offset, string) {
-    let novaPalavra = ""; //ela recebe uma string vazia para poder concatenar com a palavra gerada pelo novo charCode
-    let palavraMaiuscula = string.toUpperCase();
-    for (var contador = 0; contador < palavraMaiuscula.length; contador++) {
-      let novaLetra = palavraMaiuscula[contador]
-      if (novaLetra !== " ") {
-        let charCodeLetraAtual = novaLetra.charCodeAt();
-        let novoCharCode = ((charCodeLetraAtual - 65 + parseInt(offset)) % 26) + 65;
-        novaLetra = String.fromCharCode(novoCharCode);
+    let newWord = "";
+    let wordUppercase = string.toUpperCase();
+    for (let count = 0; count < wordUppercase.length; count++) {
+      let newLetter = wordUppercase[count]
+      if (newLetter !== " ") {
+        let charCodeCurrentLetter = newLetter.charCodeAt();
+        let newCharCode = ((charCodeCurrentLetter - 65 + parseInt(offset)) % 26) + 65;
+        newLetter = String.fromCharCode(newCharCode);
       }
-      novaPalavra = novaPalavra + novaLetra
-
+      newWord = newWord + newLetter
     }
-    return novaPalavra
+    return newWord
   },
 
   decode: function (offset, string) {
-    let novaPalavra = ""
-    let palavraMaiuscula = string.toUpperCase();
-    for (var contador = 0; contador < palavraMaiuscula.length; contador++) {
-      let novaLetra = palavraMaiuscula[contador]
-      if (novaLetra !== " ") {
-        let charCodeLetraAtual = palavraMaiuscula[contador].charCodeAt();
-        let novoCharCode = ((charCodeLetraAtual + 65 - parseInt(offset)) % 26) + 65;
-        novaLetra = String.fromCharCode(novoCharCode);
+    let newWord = ""
+    let wordUppercase = string.toUpperCase();
+    for (let count = 0; count < wordUppercase.length; count++) {
+      let newLetter = wordUppercase[count]
+      if (newLetter !== " ") {
+        let charCodeCurrentLetter = wordUppercase[count].charCodeAt();
+        let newCharCode = ((charCodeCurrentLetter + 65 - parseInt(offset)) % 26) + 65;
+        newLetter = String.fromCharCode(newCharCode);
       }
-
-      novaPalavra = novaPalavra + novaLetra
-
+      newWord = newWord + newLetter
     }
-    return novaPalavra
+    return newWord
   }
 };
 
