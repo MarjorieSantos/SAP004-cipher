@@ -12,17 +12,17 @@ let result = document.querySelector("#result")
 let result_name = document.querySelector("#result-name")
 
 const startBtn = () => {
-  page1.style.display = "none"
-  page2.style.display = "block"
-  btn_back.style.display = "block"
+  page1.classList.toggle('display-block')
+  page2.classList.toggle('display-none')
+  btn_back.classList.toggle('display-none')
 }
 
 btn_inicio.addEventListener('click', startBtn)
 
 const backToInitialPage = () => {
-  page1.style.display = "block"
-  page2.style.display = "none"
-  btn_back.style.display = "none"
+  page1.classList.toggle('display-block')
+  page2.classList.toggle('display-none')
+  btn_back.classList.toggle('display-none')
   message.value = ""
   offset.value = ""
   result.style.display = "none"

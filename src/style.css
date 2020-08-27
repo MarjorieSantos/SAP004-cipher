@@ -7,11 +7,12 @@ html, body {
 }
 
 body{
-    background: url(assets/img/background.jpg) no-repeat;
+    background: url(assets/img/background.jpg);
     padding: 0;
     margin: 0;
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 h1 {
@@ -67,6 +68,14 @@ label, ::placeholder{
   color: white;
   font-size: 24px;
   padding-bottom: 5px;
+}
+
+.display-none {
+  display: none;
+}
+
+.display-block {
+  display: none;
 }
 
 #obs {
