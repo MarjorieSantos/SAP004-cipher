@@ -14,20 +14,6 @@ body{
     align-items: center;
 }
 
-.container{
-    max-width: 600px;
-    border: 3px solid transparent;
-    border-radius: 50px;
-    text-align: center;
-    margin: auto;
-    background: rgba(0, 0, 0, .7);
-    padding-bottom: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-/*   titulos  */
-
 h1 {
     font-family: 'Comfortaa', cursive;
     color: white;
@@ -50,8 +36,6 @@ h3{
     letter-spacing: 2px;
 }
 
-/*  textos  */
-
 p{
     font-family: 'Comfortaa', cursive;
     color: #a2cee9;
@@ -61,29 +45,32 @@ p{
     overflow-wrap: break-word;
 }
 
-#obs {
-    font-size: 17px;
+form {
+  max-width: 350px;
+}
+
+input, select, textarea{
+  border: 2px solid #82B8D9;
+  border-radius: 20px;
+  background: none;
+  padding: 10px;
+  width: 100%;
+  color: white;
+  font-family: 'Comfortaa', cursive;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 10px 0 5px;
 }
 
 label, ::placeholder{
-    font-family: 'Comfortaa', cursive;
-    color: white;
-    font-size: 24px;
-    padding-bottom: 5px;
+  font-family: 'Comfortaa', cursive;
+  color: white;
+  font-size: 24px;
+  padding-bottom: 5px;
 }
 
-.btn {
-    background: #103146;
-    color: #f9f7fc;
-    font-weight: bold;
-    border-color: #295875;
-    font-size: 20px;
-}
-
-.btn:hover{
-    background: none;
-    color: #f9f7fc;
-    border-color: #295875;
+#obs {
+    font-size: 17px;
 }
 
 #btn-back{
@@ -115,22 +102,22 @@ label, ::placeholder{
     margin-left: 5px;
 }
 
-input, select, textarea{
-    border: 2px solid #82B8D9;
-    border-radius: 20px;
-    background: none;
-    padding: 10px;
-    width: 100%;
-    color: white;
-    font-family: 'Comfortaa', cursive;
-    font-size: 18px;
-    letter-spacing: 1px;
-    margin: 10px 0 5px;
+#result{
+  width: 100%;
 }
 
-form {
-    max-width: 350px;
+.container{
+  max-width: 600px;
+  border: 3px solid transparent;
+  border-radius: 50px;
+  text-align: center;
+  margin: auto;
+  background: rgba(0, 0, 0, .7);
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
+
 
 .form-initial {
     display: flex;
@@ -142,6 +129,16 @@ form {
     margin: 10px 0;
 }
 
-#result{
-    width: 100%;
+.btn {
+  background: #103146;
+  color: #f9f7fc;
+  font-weight: bold;
+  border-color: #295875;
+  font-size: 20px;
+}
+
+.btn:hover{
+  background: none;
+  color: #f9f7fc;
+  border-color: #295875;
 }
